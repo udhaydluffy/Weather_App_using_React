@@ -59,7 +59,7 @@ const WeatherDetails =({icon,temp,city,country,lat,alt,humidity,wind})=>{
   )
 }
 function App() {
-  let apikey="";//Use your Open Weather map API key
+  let apikey="0997eb22ffcd3f1cef3f0d77ee4a0ab9";//Use your Open Weather map API key
   const [text,setText]=useState("Coimbatore");
   const [icon,setIcon]=useState(clearDIcon);
   const [temp,setTemp]=useState(0);
